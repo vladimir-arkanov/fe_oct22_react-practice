@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.scss';
 import classNames from 'classnames';
-import { PhotoFull } from './types/types';
+import { PhotoFull } from './types/Types';
 
 import usersFromServer from './api/users';
 import photosFromServer from './api/photos';
